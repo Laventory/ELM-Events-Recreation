@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Bank" id="{9dc4c70a-d1fb-4d50-be1d-fb7d9f85026d}">
+		<property name="name">
+			<value>ELMsfx</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b36c16e1-3e3e-4d0b-902a-be044d513cf8}</destination>
+		</relationship>
+	</object>
+</objects>
