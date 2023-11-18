@@ -67,7 +67,7 @@
 	<object class="MarkerTrack" id="{cc195f3c-9d15-445b-9571-2c6b8ec4a7fe}" />
 	<object class="GroupTrack" id="{ef37f5d3-ede2-4897-9bde-784e195af455}">
 		<relationship name="modules">
-			<destination>{9255c0ed-4a72-4540-8a36-ffac31228cb1}</destination>
+			<destination>{1c56d18e-0f7d-4443-ad28-66ed227f7756}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{fdd72f9a-4406-470d-b5a3-8bf24351c32e}</destination>
@@ -75,10 +75,7 @@
 	</object>
 	<object class="Timeline" id="{b280860f-c911-4059-825b-6f1a50882cce}">
 		<relationship name="modules">
-			<destination>{9255c0ed-4a72-4540-8a36-ffac31228cb1}</destination>
-		</relationship>
-		<relationship name="markers">
-			<destination>{3f0fe858-dafb-4527-b93a-1a03c1ad9eab}</destination>
+			<destination>{1c56d18e-0f7d-4443-ad28-66ed227f7756}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d977625c-3d56-4cbe-85ef-c8a5d7f802ac}">
@@ -98,12 +95,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bfd8f8dc-b8d3-4d73-a71a-4ecfef6e63c2}" />
-	<object class="SingleSound" id="{9255c0ed-4a72-4540-8a36-ffac31228cb1}">
+	<object class="SingleSound" id="{1c56d18e-0f7d-4443-ad28-66ed227f7756}">
 		<property name="length">
-			<value>6.5944166666666666</value>
+			<value>5.4452499999999997</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{7b5421fc-6387-45e6-848a-f91dec1d99cb}</destination>
+			<destination>{d6faed9d-4589-4708-aa57-1c03a9dde8dc}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{fdd72f9a-4406-470d-b5a3-8bf24351c32e}">
@@ -118,20 +115,6 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{d977625c-3d56-4cbe-85ef-c8a5d7f802ac}</destination>
-		</relationship>
-	</object>
-	<object class="LoopRegion" id="{3f0fe858-dafb-4527-b93a-1a03c1ad9eab}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="length">
-			<value>6.5944166666666666</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{b280860f-c911-4059-825b-6f1a50882cce}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{cc195f3c-9d15-445b-9571-2c6b8ec4a7fe}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{abeacae3-012f-4a4e-8cc2-181b5b13473e}">
