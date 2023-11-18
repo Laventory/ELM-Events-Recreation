@@ -18,9 +18,12 @@ The FMOD Project included here merely contains the folder structure and events t
 ![](https://cdn.discordapp.com/attachments/1140611242411700297/1175291221120397352/image.png)
 
 4. Assign the events in the mixer
-> You can open the mixer tab with CTRL+5, assign the music and sfx to their respective mixer folders.
+  - You can open the mixer tab with CTRL+5, assign the music and sfx to their respective mixer folders.
    
 ![](https://cdn.discordapp.com/attachments/1140611242411700297/1175461476635525120/image.png)
 
 5. Modify to your hearts content or build and put them in `Pizza Tower\sound\Desktop\_` and `Desktop\EggsLapMod\_` for the respective ELM and normal bank files.
-> You need not worry about creating a `Master.bank` or `Master.strings.bank` as ELM only reads the `ELMMaster.bank` and `ELMMaster.strings.bank` files that are in the EggsLapMod folder.
+  - You need not worry about creating a `Master.bank` or `Master.strings.bank` as ELM only reads the `ELMMaster.bank` and `ELMMaster.strings.bank` files that are in the EggsLapMod folder.
+  
+  ## To-Do:
+  - Figure out how "pmlyric" works.
