@@ -299,6 +299,9 @@
 		<property name="length">
 			<value>122.40000000000001</value>
 		</property>
+		<property name="volume">
+			<value>-1</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{3a75d8a6-2ece-4252-92c2-9e5c07bf4a09}</destination>
 		</relationship>
@@ -466,7 +469,7 @@
 	</object>
 	<object class="LoopRegion" id="{a6202b36-0c15-4628-b43a-5e75cd150b7e}">
 		<property name="position">
-			<value>550</value>
+			<value>550.26646087185554</value>
 		</property>
 		<property name="length">
 			<value>122.39999999999992</value>
