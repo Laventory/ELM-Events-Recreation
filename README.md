@@ -24,6 +24,4 @@ The FMOD Project included here merely contains the folder structure and events t
 
 5. Modify to your hearts content or build and put them in `Pizza Tower\sound\Desktop\_` and `Desktop\EggsLapMod\_` for the respective ELM and normal bank files.
   - You need not worry about creating a `Master.bank` or `Master.strings.bank` as ELM only reads the `ELMMaster.bank` and `ELMMaster.strings.bank` files that are in the EggsLapMod folder.
-  
-  ## To-Do:
-  - Figure out how "pmlyric" works.
+ 
