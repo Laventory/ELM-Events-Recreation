@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{0f22d02c-48e8-430e-a552-5b68dc04b94f}">
 		<property name="assetPath">
-			<value>lapious4.wav</value>
+			<value>ELMmusic/lapious4.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

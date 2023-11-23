@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{d6faed9d-4589-4708-aa57-1c03a9dde8dc}">
 		<property name="assetPath">
-			<value>GhostPepIntro.wav</value>
+			<value>sfx/GhostPepIntro.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
