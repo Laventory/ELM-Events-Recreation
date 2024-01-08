@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{980cc388-5342-4892-8792-b15c870ee504}">
+		<property name="name">
+			<value>finalescape</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3344b755-3c2b-4b59-97d1-28a171678e7c}</destination>
+		</relationship>
+	</object>
+</objects>

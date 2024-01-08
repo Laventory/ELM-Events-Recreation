@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{b2e2bed5-3bc2-4ae0-9f5b-2f979f705adf}">
+		<property name="name">
+			<value>pizzatime</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3344b755-3c2b-4b59-97d1-28a171678e7c}</destination>
+		</relationship>
+	</object>
+</objects>

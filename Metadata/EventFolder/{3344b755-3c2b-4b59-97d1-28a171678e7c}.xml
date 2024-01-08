@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{3344b755-3c2b-4b59-97d1-28a171678e7c}">
+		<property name="name">
+			<value>Escape Varients</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f33f40a8-c013-4157-9434-2fdf7b1f0681}</destination>
+		</relationship>
+	</object>
+</objects>

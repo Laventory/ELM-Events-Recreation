@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{b597531a-df6d-4817-95c2-91c47afc46fa}">
+		<property name="name">
+			<value>ELMsfx</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1218e676-e8c0-4509-839d-e1549c09e10a}</destination>
+		</relationship>
+	</object>
+</objects>
