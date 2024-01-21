@@ -152,6 +152,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 			<destination>{e5ef01dc-4c0d-4561-9131-65c84f6277ae}</destination>
 			<destination>{90813b89-f553-4073-ba62-3eac8feb3b8f}</destination>
 			<destination>{31a08d49-7f1a-4c63-87a2-01a58c1cba50}</destination>
+			<destination>{5e8a9fd7-7e67-4373-90f7-98b4be133ed6}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{328ecec8-eb0f-42cb-a115-d1fb987a3790}">
@@ -662,6 +663,9 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 		<property name="length">
 			<value>207.00652083333335</value>
 		</property>
+		<property name="name">
+			<value>Pizza Mayhem</value>
+		</property>
 		<property name="looping">
 			<value>2</value>
 		</property>
@@ -687,6 +691,23 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{733995be-f72a-4256-898d-790d8721a42c}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionMarker" id="{5e8a9fd7-7e67-4373-90f7-98b4be133ed6}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b2663baf-9632-4416-8ab1-be196fc4ae72}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{abad3dee-84c4-4b8f-bcb8-31b8c0af4e74}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{90813b89-f553-4073-ba62-3eac8feb3b8f}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{17964645-840e-4bc8-8dd8-1a2ea98f981a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{46a8fd7e-80b9-41aa-80eb-3e56eecaef19}">
@@ -747,6 +768,17 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 			<destination>{dc44f5a8-9c30-412f-a9f1-7217ae9f499c}</destination>
 			<destination>{0e636d59-1204-45b1-a9f2-22990c00c52d}</destination>
 			<destination>{df7d6b5f-c518-444e-9335-3e11a840ddf3}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{17964645-840e-4bc8-8dd8-1a2ea98f981a}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{bbb24564-efaf-4147-94b6-9b37aa5ae6e2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{472cc364-4f3e-4662-89f0-6e5a51e069b9}" />

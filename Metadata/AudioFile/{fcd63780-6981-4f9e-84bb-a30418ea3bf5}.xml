@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fcd63780-6981-4f9e-84bb-a30418ea3bf5}">
+		<property name="assetPath">
+			<value>ELMmusic/Funiculi Freakout/Lap 4 v2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>164.2105215419501</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8e8123b0-ade1-4735-9c3f-91c551bb58e4}</destination>
+		</relationship>
+	</object>
+</objects>
