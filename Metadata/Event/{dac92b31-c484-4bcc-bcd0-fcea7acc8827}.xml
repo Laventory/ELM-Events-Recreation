@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{dac92b31-c484-4bcc-bcd0-fcea7acc8827}">
-		<property name="note">
-			<value>Incase you don't like Absolute AbsurZiti V2, I've actually created looping versions of other Lap 4 tracks in the "Alternate Tracks" folder,   to use them just drag them in, replace the magnet reigion and loop where Absolute AbzurZiti V2 is and fix the marker at the beginning.</value>
-		</property>
+		<property name="note" />
 		<property name="name">
 			<value>pizzatime</value>
 		</property>
