@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{06842fe3-3b58-42c8-b5ea-eef294481f46}">
+		<property name="name">
+			<value>Freakout Alt Loops</value>
+		</property>
+		<relationship name="folder">
+			<destination>{fada321b-aad5-4db7-8455-84461bac9093}</destination>
+		</relationship>
+	</object>
+</objects>
