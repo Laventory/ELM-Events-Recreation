@@ -30,9 +30,13 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 		<relationship name="markerTracks">
 			<destination>{abad3dee-84c4-4b8f-bcb8-31b8c0af4e74}</destination>
 			<destination>{733995be-f72a-4256-898d-790d8721a42c}</destination>
+			<destination>{1dc62136-96c8-43e3-a556-56c1b8a1e707}</destination>
+			<destination>{20d754c0-4f33-4de2-bccf-75428933dcc3}</destination>
+			<destination>{b423cf5c-5e4f-4ab1-9802-1a72e5371938}</destination>
 		</relationship>
 		<relationship name="groupTracks">
 			<destination>{d3d943f1-9ab2-4c02-be30-806fdee4add3}</destination>
+			<destination>{916659d7-0b25-42a0-b5e9-d0de922e7bed}</destination>
 			<destination>{2f1d4d65-5416-4d83-bd19-febf99879071}</destination>
 			<destination>{22f66b09-744e-452c-beb1-bf52677d8c4a}</destination>
 		</relationship>
@@ -68,15 +72,29 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	<object class="EventAutomatableProperties" id="{22dcb8f8-c66d-4dec-bace-ea7a0a582b4a}" />
 	<object class="MarkerTrack" id="{abad3dee-84c4-4b8f-bcb8-31b8c0af4e74}" />
 	<object class="MarkerTrack" id="{733995be-f72a-4256-898d-790d8721a42c}" />
+	<object class="MarkerTrack" id="{1dc62136-96c8-43e3-a556-56c1b8a1e707}" />
+	<object class="MarkerTrack" id="{20d754c0-4f33-4de2-bccf-75428933dcc3}" />
+	<object class="MarkerTrack" id="{b423cf5c-5e4f-4ab1-9802-1a72e5371938}" />
 	<object class="GroupTrack" id="{d3d943f1-9ab2-4c02-be30-806fdee4add3}">
 		<relationship name="modules">
-			<destination>{a8db5935-1bc0-4fbb-a6df-3857c6809e2f}</destination>
 			<destination>{aed07f90-81d7-4a49-9c27-5803c384a37c}</destination>
 			<destination>{c84b4cbe-91b0-491c-a7ba-ee98d3b1659b}</destination>
 			<destination>{22e0adfc-b6dd-49ef-b46b-f822a8aff7ff}</destination>
+			<destination>{3f1b4d02-f741-40b0-b0b4-5a2738e86c68}</destination>
+			<destination>{e756157c-f208-4c49-a24c-b2c7e86a0c9f}</destination>
+			<destination>{395adbf0-084c-4d9c-baf3-39b97d4932d4}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{5482d6a2-b68b-4207-a4d5-dac4f57375e2}</destination>
+		</relationship>
+	</object>
+	<object class="GroupTrack" id="{916659d7-0b25-42a0-b5e9-d0de922e7bed}">
+		<relationship name="modules">
+			<destination>{aa31ca25-f046-4ba0-9819-e1b2d3cf7960}</destination>
+			<destination>{5aad1063-78e6-46fb-8e85-6c5058a67222}</destination>
+		</relationship>
+		<relationship name="mixerGroup">
+			<destination>{719bf852-199e-453c-9293-5103e8a32fdf}</destination>
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{2f1d4d65-5416-4d83-bd19-febf99879071}">
@@ -122,7 +140,6 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="Timeline" id="{b2663baf-9632-4416-8ab1-be196fc4ae72}">
 		<relationship name="modules">
-			<destination>{a8db5935-1bc0-4fbb-a6df-3857c6809e2f}</destination>
 			<destination>{22e0adfc-b6dd-49ef-b46b-f822a8aff7ff}</destination>
 			<destination>{83644c01-d526-40aa-ad92-f5e2ac2d5ed1}</destination>
 			<destination>{4b675a1d-4c33-4315-b33e-16877a7e717e}</destination>
@@ -147,12 +164,22 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 			<destination>{8e576e85-d29f-43af-9d00-5e6ab1f653d3}</destination>
 			<destination>{6398ddaa-3ecd-4ae2-b267-bf86acbda904}</destination>
 			<destination>{ab812ffb-bda5-4842-9c4f-3fa09def71c5}</destination>
+			<destination>{3f1b4d02-f741-40b0-b0b4-5a2738e86c68}</destination>
+			<destination>{e756157c-f208-4c49-a24c-b2c7e86a0c9f}</destination>
+			<destination>{395adbf0-084c-4d9c-baf3-39b97d4932d4}</destination>
 		</relationship>
 		<relationship name="markers">
-			<destination>{e5ef01dc-4c0d-4561-9131-65c84f6277ae}</destination>
 			<destination>{90813b89-f553-4073-ba62-3eac8feb3b8f}</destination>
 			<destination>{31a08d49-7f1a-4c63-87a2-01a58c1cba50}</destination>
 			<destination>{5e8a9fd7-7e67-4373-90f7-98b4be133ed6}</destination>
+			<destination>{d83720ea-1cc5-4cc0-b0a3-48e688bd9e19}</destination>
+			<destination>{499eb3de-99b9-4a75-8c5b-fcc3738ca112}</destination>
+			<destination>{bda9fff4-1e9b-4038-9964-9d84919abdc5}</destination>
+			<destination>{abea9f96-6bc1-4880-994d-01d2b4c88091}</destination>
+			<destination>{1422aa6b-a133-451a-b1d9-d964474e21be}</destination>
+			<destination>{6059acf8-4d3c-4359-b632-930eddf8fa33}</destination>
+			<destination>{76f389f8-d524-4134-b2ab-7327fd94f6b3}</destination>
+			<destination>{c5a15488-0f14-463f-bcf7-e0dc13f59462}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{328ecec8-eb0f-42cb-a115-d1fb987a3790}">
@@ -185,14 +212,6 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{aeb8cb0f-4ead-4e96-b4ef-ae06d8778726}" />
-	<object class="SingleSound" id="{a8db5935-1bc0-4fbb-a6df-3857c6809e2f}">
-		<property name="length">
-			<value>338.46856250000002</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{c34aafd2-e892-4673-9a01-af9c1b6443aa}</destination>
-		</relationship>
-	</object>
 	<object class="TransitionDestinationSound" id="{aed07f90-81d7-4a49-9c27-5803c384a37c}" />
 	<object class="TransitionSourceSound" id="{c84b4cbe-91b0-491c-a7ba-ee98d3b1659b}">
 		<relationship name="fadeOutCurve">
@@ -201,7 +220,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="SingleSound" id="{22e0adfc-b6dd-49ef-b46b-f822a8aff7ff}">
 		<property name="start">
-			<value>364.81148094234891</value>
+			<value>1104.8114809423489</value>
 		</property>
 		<property name="length">
 			<value>206.78227345478689</value>
@@ -213,18 +232,78 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 			<destination>{3d22906c-3fb9-48c2-9db1-9fb8ff8aa12d}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{3f1b4d02-f741-40b0-b0b4-5a2738e86c68}">
+		<property name="length">
+			<value>338.46856250000002</value>
+		</property>
+		<relationship name="automators">
+			<destination>{1c142419-6236-4a93-9af0-be894e0f5cb8}</destination>
+		</relationship>
+		<relationship name="audioFile">
+			<destination>{c34aafd2-e892-4673-9a01-af9c1b6443aa}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{e756157c-f208-4c49-a24c-b2c7e86a0c9f}">
+		<property name="start">
+			<value>360</value>
+		</property>
+		<property name="length">
+			<value>350.43264583333331</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{6f137fa8-c93f-42c7-906b-7de4af922e60}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{395adbf0-084c-4d9c-baf3-39b97d4932d4}">
+		<property name="start">
+			<value>729.56735416666675</value>
+		</property>
+		<property name="length">
+			<value>350.43264583333331</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{6f137fa8-c93f-42c7-906b-7de4af922e60}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{5482d6a2-b68b-4207-a4d5-dac4f57375e2}">
 		<property name="volume">
 			<value>-3</value>
 		</property>
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Peppino</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{9afe2bfa-dd3b-4a14-924c-24d4a8acacc6}</destination>
 		</relationship>
 		<relationship name="panner">
 			<destination>{98d94701-baf9-4153-a131-2b3be0c07ebd}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{328ecec8-eb0f-42cb-a115-d1fb987a3790}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionSourceSound" id="{aa31ca25-f046-4ba0-9819-e1b2d3cf7960}">
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{5aad1063-78e6-46fb-8e85-6c5058a67222}">
+		<property name="start">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="EventMixerGroup" id="{719bf852-199e-453c-9293-5103e8a32fdf}">
+		<property name="name">
+			<value>Noise</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ce59fba6-3edd-4653-8870-2a8154a842a1}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{3b4ec4fd-72cb-4e6f-87c7-c1be264c744a}</destination>
 		</relationship>
 		<relationship name="output">
 			<destination>{328ecec8-eb0f-42cb-a115-d1fb987a3790}</destination>
@@ -245,7 +324,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{83644c01-d526-40aa-ad92-f5e2ac2d5ed1}">
 		<property name="start">
-			<value>394.89435738430751</value>
+			<value>1134.8943573843076</value>
 		</property>
 		<property name="length">
 			<value>6.0171235580414191</value>
@@ -262,7 +341,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{4b675a1d-4c33-4315-b33e-16877a7e717e}">
 		<property name="start">
-			<value>400.91148094234893</value>
+			<value>1140.911480942349</value>
 		</property>
 		<property name="length">
 			<value>5.8999999999999773</value>
@@ -279,7 +358,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{cb56b0c9-e82f-43b5-8474-cfde6d98af6a}">
 		<property name="start">
-			<value>412.81148094234891</value>
+			<value>1152.8114809423489</value>
 		</property>
 		<property name="length">
 			<value>5.9000000000000341</value>
@@ -296,7 +375,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{a87433e1-4fba-40f9-b399-e171c7baafd6}">
 		<property name="start">
-			<value>418.83857614782852</value>
+			<value>1158.8385761478285</value>
 		</property>
 		<property name="length">
 			<value>3.0338690068494998</value>
@@ -313,7 +392,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{af8a5f0b-fa42-473d-b930-a3129daa82c7}">
 		<property name="start">
-			<value>421.87244515467802</value>
+			<value>1161.872445154678</value>
 		</property>
 		<property name="length">
 			<value>3.0390357876709118</value>
@@ -330,7 +409,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{30a0307d-e6e5-4955-83bf-111409e5d202}">
 		<property name="start">
-			<value>424.97600491495086</value>
+			<value>1164.9760049149509</value>
 		</property>
 		<property name="length">
 			<value>2.903214041097101</value>
@@ -347,7 +426,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{f2aa63a5-462f-495a-9085-2366a449f149}">
 		<property name="start">
-			<value>427.87921895604796</value>
+			<value>1167.8792189560479</value>
 		</property>
 		<property name="length">
 			<value>3.232261986300955</value>
@@ -364,7 +443,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{6f724d64-3393-42d4-ac6c-d485b05bdccd}">
 		<property name="start">
-			<value>431.1879454971421</value>
+			<value>1171.1879454971422</value>
 		</property>
 		<property name="length">
 			<value>5.6235354452068123</value>
@@ -381,7 +460,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{0f2902a3-bf8f-42d3-809b-79a5a01d12b6}">
 		<property name="start">
-			<value>437.21148094234894</value>
+			<value>1177.211480942349</value>
 		</property>
 		<property name="length">
 			<value>5.6999999999999886</value>
@@ -398,7 +477,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{28cdfc7d-c8d6-4e75-898f-6e1eb889d302}">
 		<property name="start">
-			<value>478.84570646506006</value>
+			<value>1218.8457064650602</value>
 		</property>
 		<property name="length">
 			<value>5.6657744772889487</value>
@@ -415,7 +494,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{5fcaeb54-673b-4052-90cd-dbfdd3585e6a}">
 		<property name="start">
-			<value>484.81654525656302</value>
+			<value>1224.8165452565631</value>
 		</property>
 		<property name="length">
 			<value>5.6949356857859357</value>
@@ -432,7 +511,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{1db03eb2-0428-473a-a882-c535f0ab12fc}">
 		<property name="start">
-			<value>490.85735001507021</value>
+			<value>1230.8573500150701</value>
 		</property>
 		<property name="length">
 			<value>5.6949356857859357</value>
@@ -449,7 +528,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{b0446a8f-f308-4d6f-b9bb-c605dae5539d}">
 		<property name="start">
-			<value>496.84000221127474</value>
+			<value>1236.8400022112746</value>
 		</property>
 		<property name="length">
 			<value>5.6949356857859357</value>
@@ -466,7 +545,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{70caba78-6a42-4719-bdcf-6eaf6855afe9}">
 		<property name="start">
-			<value>406.81148094234891</value>
+			<value>1146.8114809423489</value>
 		</property>
 		<property name="length">
 			<value>6</value>
@@ -510,7 +589,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{e35e0425-562a-4669-9415-fa455f6c30d2}">
 		<property name="start">
-			<value>418.71148094234894</value>
+			<value>1158.711480942349</value>
 		</property>
 		<property name="length">
 			<value>0.12709520547957709</value>
@@ -524,7 +603,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{e6abe62d-b539-4e05-9810-bcda20e9c175}">
 		<property name="start">
-			<value>431.11148094234892</value>
+			<value>1171.1114809423489</value>
 		</property>
 		<property name="length">
 			<value>0.076464554793176376</value>
@@ -538,7 +617,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{6e52c9a5-f062-40dd-bd28-e078f59d6d42}">
 		<property name="start">
-			<value>436.81148094234891</value>
+			<value>1176.8114809423489</value>
 		</property>
 		<property name="length">
 			<value>0.40000000000003411</value>
@@ -552,7 +631,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{f84ba37f-dc12-444e-b164-bc1957a969d8}">
 		<property name="start">
-			<value>442.91148094234893</value>
+			<value>1182.911480942349</value>
 		</property>
 		<property name="length">
 			<value>0.40000000000003411</value>
@@ -566,7 +645,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{c21c8324-6396-4f76-87c4-5d004844e0e6}">
 		<property name="start">
-			<value>484.51148094234907</value>
+			<value>1224.511480942349</value>
 		</property>
 		<property name="length">
 			<value>0.30506431421389379</value>
@@ -580,7 +659,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{5ceaf9ab-bd73-4269-9b74-e639b9f35b2a}">
 		<property name="start">
-			<value>490.51148094234895</value>
+			<value>1230.511480942349</value>
 		</property>
 		<property name="length">
 			<value>0.34586907272131384</value>
@@ -594,7 +673,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{8e576e85-d29f-43af-9d00-5e6ab1f653d3}">
 		<property name="start">
-			<value>496.55228570085615</value>
+			<value>1236.5522857008561</value>
 		</property>
 		<property name="length">
 			<value>0.28771651041864743</value>
@@ -608,7 +687,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{6398ddaa-3ecd-4ae2-b267-bf86acbda904}">
 		<property name="start">
-			<value>502.53493789706067</value>
+			<value>1242.5349378970607</value>
 		</property>
 		<property name="length">
 			<value>0.34586907272131384</value>
@@ -622,7 +701,7 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="CommandSound" id="{ab812ffb-bda5-4842-9c4f-3fa09def71c5}">
 		<property name="length">
-			<value>394.89435738430751</value>
+			<value>1134.8943573843076</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -645,20 +724,9 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 			<destination>{328ecec8-eb0f-42cb-a115-d1fb987a3790}</destination>
 		</relationship>
 	</object>
-	<object class="SustainPoint" id="{e5ef01dc-4c0d-4561-9131-65c84f6277ae}">
-		<property name="position">
-			<value>338.46856250000002</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{b2663baf-9632-4416-8ab1-be196fc4ae72}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{abad3dee-84c4-4b8f-bcb8-31b8c0af4e74}</destination>
-		</relationship>
-	</object>
 	<object class="LoopRegion" id="{90813b89-f553-4073-ba62-3eac8feb3b8f}">
 		<property name="position">
-			<value>364.85148094234893</value>
+			<value>1104.7823377304692</value>
 		</property>
 		<property name="length">
 			<value>207.00652083333335</value>
@@ -673,10 +741,12 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 			<destination>{b2663baf-9632-4416-8ab1-be196fc4ae72}</destination>
 		</relationship>
 		<relationship name="markerTrack">
-			<destination>{abad3dee-84c4-4b8f-bcb8-31b8c0af4e74}</destination>
+			<destination>{b423cf5c-5e4f-4ab1-9802-1a72e5371938}</destination>
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{9b3d8d29-cc55-4bc0-a159-be0e2ebc59a5}</destination>
+			<destination>{0d020637-8401-4287-b9cb-05274ee8704d}</destination>
+			<destination>{5ad89fe3-869e-4ba3-b159-e1ac9d9d72d9}</destination>
 		</relationship>
 		<relationship name="transitionTimeline">
 			<destination>{d225c738-87c0-4c6a-991d-9a2473a04fbe}</destination>
@@ -684,13 +754,13 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 	</object>
 	<object class="SustainPoint" id="{31a08d49-7f1a-4c63-87a2-01a58c1cba50}">
 		<property name="position">
-			<value>570</value>
+			<value>1310</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{b2663baf-9632-4416-8ab1-be196fc4ae72}</destination>
 		</relationship>
 		<relationship name="markerTrack">
-			<destination>{733995be-f72a-4256-898d-790d8721a42c}</destination>
+			<destination>{20d754c0-4f33-4de2-bccf-75428933dcc3}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionMarker" id="{5e8a9fd7-7e67-4373-90f7-98b4be133ed6}">
@@ -708,6 +778,157 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{17964645-840e-4bc8-8dd8-1a2ea98f981a}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionMarker" id="{d83720ea-1cc5-4cc0-b0a3-48e688bd9e19}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b2663baf-9632-4416-8ab1-be196fc4ae72}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{733995be-f72a-4256-898d-790d8721a42c}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{76f389f8-d524-4134-b2ab-7327fd94f6b3}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{44fe2495-7eac-4116-a9d8-552615d2e8b4}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionMarker" id="{499eb3de-99b9-4a75-8c5b-fcc3738ca112}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b2663baf-9632-4416-8ab1-be196fc4ae72}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{1dc62136-96c8-43e3-a556-56c1b8a1e707}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{1422aa6b-a133-451a-b1d9-d964474e21be}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{c6a171b4-117e-4f64-b8d8-9ce79d968f35}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{bda9fff4-1e9b-4038-9964-9d84919abdc5}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>338.46856250000002</value>
+		</property>
+		<property name="name">
+			<value>P</value>
+		</property>
+		<property name="looping">
+			<value>2</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b2663baf-9632-4416-8ab1-be196fc4ae72}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{b423cf5c-5e4f-4ab1-9802-1a72e5371938}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{7f679b20-c315-4188-85b6-60e60ad9154a}</destination>
+			<destination>{a4cebb39-e3d5-435b-b370-e5d67d148ef9}</destination>
+			<destination>{bea5e514-57c3-467b-a6fb-0c740fc7e332}</destination>
+		</relationship>
+	</object>
+	<object class="SustainPoint" id="{abea9f96-6bc1-4880-994d-01d2b4c88091}">
+		<property name="position">
+			<value>338.46856250000002</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b2663baf-9632-4416-8ab1-be196fc4ae72}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{20d754c0-4f33-4de2-bccf-75428933dcc3}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{cec86776-f5b8-4847-93d2-ed5d039df288}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{1422aa6b-a133-451a-b1d9-d964474e21be}">
+		<property name="position">
+			<value>360</value>
+		</property>
+		<property name="length">
+			<value>350.43264583333331</value>
+		</property>
+		<property name="name">
+			<value>Noise</value>
+		</property>
+		<property name="looping">
+			<value>2</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b2663baf-9632-4416-8ab1-be196fc4ae72}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{b423cf5c-5e4f-4ab1-9802-1a72e5371938}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{93038eb3-baaa-47d2-a60d-08bfb61f7bd4}</destination>
+			<destination>{c0c99123-e2a6-4488-98e1-1c181972c864}</destination>
+			<destination>{c381d2bb-ea3e-4904-932c-5c4f4afc3741}</destination>
+		</relationship>
+	</object>
+	<object class="SustainPoint" id="{6059acf8-4d3c-4359-b632-930eddf8fa33}">
+		<property name="position">
+			<value>710.43264583333325</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b2663baf-9632-4416-8ab1-be196fc4ae72}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{20d754c0-4f33-4de2-bccf-75428933dcc3}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{8e768a18-8fb5-47dc-b8ab-a8d8563b8647}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{76f389f8-d524-4134-b2ab-7327fd94f6b3}">
+		<property name="position">
+			<value>729.56735416666675</value>
+		</property>
+		<property name="length">
+			<value>350.43264583333331</value>
+		</property>
+		<property name="name">
+			<value>Swap</value>
+		</property>
+		<property name="looping">
+			<value>2</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b2663baf-9632-4416-8ab1-be196fc4ae72}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{b423cf5c-5e4f-4ab1-9802-1a72e5371938}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{4edc5821-d3b1-47d9-aa74-952721c363af}</destination>
+			<destination>{2c474001-55b4-4458-8ac2-949ab7f6742b}</destination>
+			<destination>{2f04dab0-8a5a-4553-90bc-2caaf028c8fa}</destination>
+		</relationship>
+	</object>
+	<object class="SustainPoint" id="{c5a15488-0f14-463f-bcf7-e0dc13f59462}">
+		<property name="position">
+			<value>1080.0000000000002</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{b2663baf-9632-4416-8ab1-be196fc4ae72}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{20d754c0-4f33-4de2-bccf-75428933dcc3}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{badde6e1-1450-4ea2-a22e-6b0e10b18616}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{46a8fd7e-80b9-41aa-80eb-3e56eecaef19}">
@@ -729,12 +950,26 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 			<destination>{aed07f90-81d7-4a49-9c27-5803c384a37c}</destination>
 		</relationship>
 	</object>
+	<object class="Automator" id="{1c142419-6236-4a93-9af0-be894e0f5cb8}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{5af16efc-b741-4b0f-9924-be001173652d}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{9afe2bfa-dd3b-4a14-924c-24d4a8acacc6}">
 		<relationship name="effects">
 			<destination>{a9023fb2-0b6e-4c5e-9a91-ef41e72ff6c0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{98d94701-baf9-4153-a131-2b3be0c07ebd}" />
+	<object class="MixerBusEffectChain" id="{ce59fba6-3edd-4653-8870-2a8154a842a1}">
+		<relationship name="effects">
+			<destination>{6f80b0a8-1868-4227-9ba5-3af75449e948}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{3b4ec4fd-72cb-4e6f-87c7-c1be264c744a}" />
 	<object class="MixerBusEffectChain" id="{f9a7fd08-1f0f-49a4-94cc-716636b3fe84}">
 		<relationship name="effects">
 			<destination>{5cac9d7a-381a-4c7b-a25d-1cf3177771dd}</destination>
@@ -758,6 +993,28 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 			<destination>{bbb24564-efaf-4147-94b6-9b37aa5ae6e2}</destination>
 		</relationship>
 	</object>
+	<object class="ParameterCondition" id="{0d020637-8401-4287-b9cb-05274ee8704d}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{de4dc87b-388e-41ad-a059-db3695ec96bb}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{5ad89fe3-869e-4ba3-b159-e1ac9d9d72d9}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{67ac4114-17b6-4da2-a0b3-29edad43a300}</destination>
+		</relationship>
+	</object>
 	<object class="TransitionTimeline" id="{d225c738-87c0-4c6a-991d-9a2473a04fbe}">
 		<relationship name="modules">
 			<destination>{c84b4cbe-91b0-491c-a7ba-ee98d3b1659b}</destination>
@@ -768,6 +1025,8 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 			<destination>{dc44f5a8-9c30-412f-a9f1-7217ae9f499c}</destination>
 			<destination>{0e636d59-1204-45b1-a9f2-22990c00c52d}</destination>
 			<destination>{df7d6b5f-c518-444e-9335-3e11a840ddf3}</destination>
+			<destination>{aa31ca25-f046-4ba0-9819-e1b2d3cf7960}</destination>
+			<destination>{5aad1063-78e6-46fb-8e85-6c5058a67222}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterCondition" id="{17964645-840e-4bc8-8dd8-1a2ea98f981a}">
@@ -776,6 +1035,160 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 		</property>
 		<property name="maximum">
 			<value>4</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{bbb24564-efaf-4147-94b6-9b37aa5ae6e2}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{44fe2495-7eac-4116-a9d8-552615d2e8b4}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{67ac4114-17b6-4da2-a0b3-29edad43a300}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{c6a171b4-117e-4f64-b8d8-9ce79d968f35}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{de4dc87b-388e-41ad-a059-db3695ec96bb}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{7f679b20-c315-4188-85b6-60e60ad9154a}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{bbb24564-efaf-4147-94b6-9b37aa5ae6e2}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{a4cebb39-e3d5-435b-b370-e5d67d148ef9}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{de4dc87b-388e-41ad-a059-db3695ec96bb}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{bea5e514-57c3-467b-a6fb-0c740fc7e332}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{67ac4114-17b6-4da2-a0b3-29edad43a300}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{cec86776-f5b8-4847-93d2-ed5d039df288}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{bbb24564-efaf-4147-94b6-9b37aa5ae6e2}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{93038eb3-baaa-47d2-a60d-08bfb61f7bd4}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{de4dc87b-388e-41ad-a059-db3695ec96bb}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{c0c99123-e2a6-4488-98e1-1c181972c864}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{bbb24564-efaf-4147-94b6-9b37aa5ae6e2}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{c381d2bb-ea3e-4904-932c-5c4f4afc3741}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{67ac4114-17b6-4da2-a0b3-29edad43a300}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{8e768a18-8fb5-47dc-b8ab-a8d8563b8647}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{bbb24564-efaf-4147-94b6-9b37aa5ae6e2}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{4edc5821-d3b1-47d9-aa74-952721c363af}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{bbb24564-efaf-4147-94b6-9b37aa5ae6e2}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{2c474001-55b4-4458-8ac2-949ab7f6742b}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{67ac4114-17b6-4da2-a0b3-29edad43a300}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{2f04dab0-8a5a-4553-90bc-2caaf028c8fa}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{de4dc87b-388e-41ad-a059-db3695ec96bb}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{badde6e1-1450-4ea2-a22e-6b0e10b18616}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{bbb24564-efaf-4147-94b6-9b37aa5ae6e2}</destination>
@@ -809,7 +1222,33 @@ the state 0 for pmlyric leaves it blank, with 1 onwards corresponding to the "ly
 			<value>0</value>
 		</property>
 	</object>
+	<object class="AutomationCurve" id="{5af16efc-b741-4b0f-9924-be001173652d}">
+		<relationship name="parameter">
+			<destination>{de4dc87b-388e-41ad-a059-db3695ec96bb}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{ada4fad8-c172-4c0e-8e57-c99ffe97b832}</destination>
+			<destination>{c5adfd12-737f-4e88-bdf9-24c25442e578}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{a9023fb2-0b6e-4c5e-9a91-ef41e72ff6c0}" />
+	<object class="MixerBusFader" id="{6f80b0a8-1868-4227-9ba5-3af75449e948}" />
 	<object class="MixerBusFader" id="{5cac9d7a-381a-4c7b-a25d-1cf3177771dd}" />
 	<object class="MixerBusFader" id="{61fe104b-e63a-4975-bc8c-51641dc22243}" />
+	<object class="AutomationPoint" id="{ada4fad8-c172-4c0e-8e57-c99ffe97b832}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{c5adfd12-737f-4e88-bdf9-24c25442e578}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
 </objects>
