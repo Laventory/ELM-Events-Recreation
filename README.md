@@ -32,6 +32,39 @@ The FMOD Project included here merely contains the folder structure and events t
 
 5. Modify to your hearts content or build and put them in `Pizza Tower\sound\Desktop\_` and `Desktop\EggsLapMod\_` for the respective ELM and normal bank files.
   - You need not worry about creating a `Master.bank` or `Master.strings.bank` as ELM only reads the `ELMMaster.bank` and `ELMMaster.strings.bank` files that are in the EggsLapMod folder.
+  
+# Why does event:/ELMmusic/pizzatime look like that?
+So with the introduction of Swap Mode within V1.1.0 of Pizza Tower, they needed a way to have it so the music switches seemlessly between Peppino's tracks and Noise's tracks.
+As a result though I can't really just use some magnet regions over it all and call it a day.
+
+The formatting is as follows:
+= Lap 1! =
+![](https://cdn.discordapp.com/attachments/1140611242411700297/1218682710755770449/image.png?ex=66088db8&is=65f618b8&hm=1e782dad19fe9d1b55c8cc71654d6bf3bf94947d38e99e313bfd59dbd4ef6311&)
+
+- Three destination regions per song, one for the beginning of the song, one for the loop and one for the hurry up part (the part that plays when you have 56 seconds remaining as Peppino or 1:05 left as The Noise).
+- Three transition regions, the three of them have the same fade transition set so it's consistent but they target their respective destination regions at the other character's Escape track.  This formatting keeps the songs sections from leaking into others when transitioning.
+- A single looping part of emptiness with the same formatting as the other three.  This is so the song doesn't begin replaying if you switch after the song ends.
+- A transition region covering the entire song, this transition region covers the transition from the Lap 1 track to the Lap 2 track.  The reason why I'm not just using a magnet region will be explained shortly.
+- Another transition doing the same but linking to The Noise's Lap 2 track, just in-case.
+
+= Lap 2! =
+![](https://cdn.discordapp.com/attachments/1140611242411700297/1218684540059517048/image.png?ex=66088f6c&is=65f61a6c&hm=31bd46b64dcf85181c81b11748a80ba727491c5f0188fc650eab1557aa9a890f&)
+
+- The magnet region here does not work for transitioning from the Lap 1 to Lap 2 tracks, instead being used for going between Peppino and The Noise's Lap 2 tracks, set on relative offsets.
+- A transition region linking to the Lap 3 tracks, just like with Lap 1's there is a second one above linking to The Noise's variant.
+
+= Lap 3! =
+
+- Lap 3's uses the same formatting as Lap 2's, only instead linking to the Lap 4 tracks in the transition regions instead.
+
+= Lap 4! =
+
+- Following the same formatting as Lap 1's but without the beginning or hurry up transition.
+
+= Transition markers =
+![](https://cdn.discordapp.com/attachments/1140611242411700297/1218686146431815720/image.png?ex=660890eb&is=65f61beb&hm=a341884873ce0fe7318aabea695e5fb4800921202188eaaa786a7e3cd6e8c599&)
+
+- Incase you are confused about the transition markers at the top left of the logic tracks.  These are so that the event can start from either The Noise's escape themes without it fading in from It's Pizza Time first, or the same but for the Lap 3/4 tracks when lapping.
 
 # Alternate Lap 4 tracks.
 ## WARNING:  These haven't been reformatted for the Noise Update banks, I'll get on them later but you'll understand if you even just GLANCE at the pizzatime event now.
