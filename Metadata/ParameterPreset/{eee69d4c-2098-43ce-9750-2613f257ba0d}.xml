@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{eee69d4c-2098-43ce-9750-2613f257ba0d}">
+		<property name="name">
+			<value>musicmuffle</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cefa5e43-e6f4-4506-8949-b68df3873359}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{09bd28e8-d1f5-4369-a4c2-c37920d2de7e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{09bd28e8-d1f5-4369-a4c2-c37920d2de7e}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>5</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

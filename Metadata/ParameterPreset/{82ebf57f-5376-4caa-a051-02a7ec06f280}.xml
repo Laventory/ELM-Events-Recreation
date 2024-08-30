@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{82ebf57f-5376-4caa-a051-02a7ec06f280}">
+		<property name="name">
+			<value>pmlyric</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cefa5e43-e6f4-4506-8949-b68df3873359}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5254d123-3fe4-4769-a4d0-7bff32b5ea13}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5254d123-3fe4-4769-a4d0-7bff32b5ea13}">
+		<property name="maximum">
+			<value>14</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

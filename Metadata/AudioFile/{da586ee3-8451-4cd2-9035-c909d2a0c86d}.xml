@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{da586ee3-8451-4cd2-9035-c909d2a0c86d}">
+		<property name="assetPath">
+			<value>ELMsfx/S1_A3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.90172335600907028</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8e8123b0-ade1-4735-9c3f-91c551bb58e4}</destination>
+		</relationship>
+	</object>
+</objects>

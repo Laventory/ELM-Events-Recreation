@@ -1,0 +1,9 @@
+.cache/*
+.cache/*.*
+.unsaved/*
+.unsaved/*.*
+.user/*
+.user/*.*
+Build/*
+Build/*.*
+*.sfk

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{a5b30615-df63-4479-b0a5-ab7b893a99dd}">
+		<property name="name">
+			<value>Absurziti</value>
+		</property>
+		<relationship name="folder">
+			<destination>{fada321b-aad5-4db7-8455-84461bac9093}</destination>
+		</relationship>
+	</object>
+</objects>
