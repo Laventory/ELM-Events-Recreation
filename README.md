@@ -97,7 +97,7 @@ So lets say that within your project, you want a COMPLETELY different song to pl
 
 So the way that Egg's Lap Mod does the lyrics for Pizza Mayhem is interesting, the first thing to note is that the lyrics are stored in the english.txt file in the `lang\` folder inside Pizza Tower's directory.
 The lyrics are stored at the bottom, by default the lyrics for Pizza Mayhem go up to a count of 14 but you can actually insert as many as you need.
-For example.  In the alternate "Example" branch of this repo, I have replaced Pizza Mayhem with Live and Learn from Sonic Adventure 2.  That song contains 27 unique lyrics, so the parameter would be increased to 0-27.
+For example.  Lets say that I wanted to replace Pizza Mayhem with Live and Learn from Sonic Adventure 2.  That song contains 27 unique lyrics, so the parameter would be increased to 27.
 
 ![](https://i.postimg.cc/kM2xd00h/live-and-learn.png)
 
