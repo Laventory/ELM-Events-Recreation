@@ -42,7 +42,7 @@ The formatting is as follows:
 - The Magnet regions are used to transition between Peppino and Noise's music tracks.
 - Both songs must have the same length to them, you can sync this up by using transition regions at the ends of the tracks to both ensure there's padding for smooth transitions on the timeline, and to also make sure that if you swap character right as it loops, it doesn't leak into the next song by mistake.
 
-![](https://postimg.cc/fS0MdZtG)
+![](https://i.postimg.cc/brmrKwzw/Lap2.png)
 An example using the Lap 2 songs
 
 = Transition markers =
@@ -114,7 +114,7 @@ I have colour coded these command instruments, so that the lyrics are blue and a
 It's a very time consuming process but it's definitely worth the effort.
 
 # Music Credits
-Vozaxhi - [Pillar John's Revenge](https://www.youtube.com/watch?v=MSzReOhnxXg)
-Inceptradom - Absolute AbsurZiti [V1 REDUX](https://www.youtube.com/watch?v=_x3RvXH7sdo) / [V2](https://www.youtube.com/watch?v=Tj6sN5GNBPA)
-LAAAAE - Funiculi Freakout [V1](https://www.youtube.com/watch?v=cr0Y_DkL05w) / [V1 REDUX](https://www.youtube.com/watch?v=vPA3co_iesA) / [V2](https://www.youtube.com/watch?v=NuDjZB65ViA)
-DimWiddy - [Memento Morinara](https://soundcloud.com/dimwiddy/memento-morinara)
+- Vozaxhi - [Pillar John's Revenge](https://www.youtube.com/watch?v=MSzReOhnxXg)
+- Inceptradom - Absolute AbsurZiti [V1 REDUX](https://www.youtube.com/watch?v=_x3RvXH7sdo) / [V2](https://www.youtube.com/watch?v=Tj6sN5GNBPA)
+- LAAAAE - Funiculi Freakout [V1](https://www.youtube.com/watch?v=cr0Y_DkL05w) / [V1 REDUX](https://www.youtube.com/watch?v=vPA3co_iesA) / [V2](https://www.youtube.com/watch?v=NuDjZB65ViA)
+- DimWiddy - [Memento Morinara](https://soundcloud.com/dimwiddy/memento-morinara)
