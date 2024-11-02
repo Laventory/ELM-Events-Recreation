@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{251e62cd-55a5-4456-88b3-ec952c8e7dc6}">
+		<property name="assetPath">
+			<value>ELMsfx/HeavyMetallicImpa_CRT017304.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.47283333333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8e8123b0-ade1-4735-9c3f-91c551bb58e4}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{761fb6fc-5c32-4d5c-ae86-0b89da985ce7}">
+		<property name="assetPath">
+			<value>ELMsfx/SmallSharpMetalli_CRT031704.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.45785416666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8e8123b0-ade1-4735-9c3f-91c551bb58e4}</destination>
+		</relationship>
+	</object>
+</objects>

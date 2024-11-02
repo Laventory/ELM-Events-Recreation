@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="EventFolder" id="{fada321b-aad5-4db7-8455-84461bac9093}">
-		<property name="note">
-			<value>UNFORTMATTED FOR NOISE UPDATE PIZZATIME EVENT
-
-GOOD LUCK PUTTING THEM IN IF YOU CHOOSE TOO.</value>
-		</property>
 		<property name="name">
 			<value>Alternate Tracks</value>
 		</property>

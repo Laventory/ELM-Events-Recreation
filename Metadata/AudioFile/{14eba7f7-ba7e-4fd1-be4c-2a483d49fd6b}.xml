@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{14eba7f7-ba7e-4fd1-be4c-2a483d49fd6b}">
 		<property name="assetPath">
-			<value>ELMmusic/Absolute AbsurZiti/AA V1 Redux.mp3</value>
+			<value>ELMmusic/Inceptra/AA V1 Redux.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
