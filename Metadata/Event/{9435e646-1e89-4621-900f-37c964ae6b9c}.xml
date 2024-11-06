@@ -5,7 +5,7 @@
 			<value>lapdifficultymetal</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{20861c81-925a-471f-9066-f924ea71ba1d}</destination>
@@ -123,6 +123,7 @@
 	<object class="MixerBusEffectChain" id="{4df73294-09d9-4c77-b61b-edfb397977da}">
 		<relationship name="effects">
 			<destination>{62b76624-955a-47d7-8c26-fbc4d8fa53e4}</destination>
+			<destination>{0bcb2b67-1fbb-49b7-ac74-9bdb74ce82b6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{33352c5c-ee2d-4fe6-b792-3960aed7e3de}" />
@@ -132,7 +133,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>3</value>
+			<value>13.541667</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{1db0ee76-efb9-4ab4-9794-0906669278f7}">
@@ -142,5 +143,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{608793f5-6422-494c-9008-8c89a725eb3a}" />
 	<object class="MixerBusFader" id="{62b76624-955a-47d7-8c26-fbc4d8fa53e4}" />
+	<object class="ProxyEffect" id="{0bcb2b67-1fbb-49b7-ac74-9bdb74ce82b6}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{73266157-8502-40f8-ad21-479d8a96d95e}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{f8ee3ad8-204d-4d92-af96-87714a4a5f20}" />
 </objects>

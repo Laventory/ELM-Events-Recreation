@@ -5,7 +5,7 @@
 			<value>lapdifficultywood</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{20861c81-925a-471f-9066-f924ea71ba1d}</destination>
@@ -100,7 +100,7 @@
 			<value>0.86704166666666671</value>
 		</property>
 		<relationship name="modulators">
-			<destination>{3ecd79d8-7f19-4866-bf27-ab47e2d4c980}</destination>
+			<destination>{ad87f868-51a7-4af0-b5e5-2fae29ce0a76}</destination>
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{c73d9da5-a9f4-484d-bfa4-dc9e7ba2daa2}</destination>
@@ -123,16 +123,17 @@
 	<object class="MixerBusEffectChain" id="{c51e8b2b-9640-4cea-9d4c-551a825eba4e}">
 		<relationship name="effects">
 			<destination>{7760e1d4-6c9e-46be-8ddf-92441056f9d6}</destination>
+			<destination>{acb51356-f1e3-4a44-9ac2-cf87e486d048}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{75be5712-d2ba-4dc1-8993-a7d07d11c9c2}" />
 	<object class="MixerBusFader" id="{6606f18e-997a-4a6d-b300-eb4e96c58142}" />
-	<object class="RandomizerModulator" id="{3ecd79d8-7f19-4866-bf27-ab47e2d4c980}">
+	<object class="RandomizerModulator" id="{ad87f868-51a7-4af0-b5e5-2fae29ce0a76}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>4.5</value>
+			<value>13.541667</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{4eaa0194-48b9-46f3-abe5-3b523ec8fcde}">
@@ -142,5 +143,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{d7b1326a-99fc-4f46-a8bc-178cb026ae2c}" />
 	<object class="MixerBusFader" id="{7760e1d4-6c9e-46be-8ddf-92441056f9d6}" />
+	<object class="ProxyEffect" id="{acb51356-f1e3-4a44-9ac2-cf87e486d048}">
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="preset">
+			<destination>{73266157-8502-40f8-ad21-479d8a96d95e}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{477b372a-c646-495e-b5a9-215e2e2953a5}" />
 </objects>

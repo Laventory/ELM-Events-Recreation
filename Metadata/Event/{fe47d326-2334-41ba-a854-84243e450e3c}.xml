@@ -5,13 +5,13 @@
 			<value>johnghostboo</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{02bb8d3a-7e5f-4c28-a259-2a04f62e570b}</destination>
 		</relationship>
 		<relationship name="tags">
-			<destination>{0f045869-5711-4aa9-98d5-5d845720160e}</destination>
+			<destination>{27402e7e-b084-42b6-ae06-1ec9b697ac86}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{0b2373bb-8404-45f2-823b-b7706109c83b}</destination>
@@ -116,7 +116,6 @@
 	<object class="MixerBusEffectChain" id="{5d89be2d-d03f-480a-9828-82f5feac1c0b}">
 		<relationship name="effects">
 			<destination>{23d33dcb-0937-4909-97eb-3f5d85ce61ce}</destination>
-			<destination>{22a6d826-d558-47a3-9b44-ebf3cb4d6422}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{251f9cf1-b9d3-4aea-a788-60a8ab1da4ee}" />
@@ -128,13 +127,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{340ea2ce-e289-4432-9433-9f5bbf8f5d6a}" />
 	<object class="MixerBusFader" id="{23d33dcb-0937-4909-97eb-3f5d85ce61ce}" />
-	<object class="ProxyEffect" id="{22a6d826-d558-47a3-9b44-ebf3cb4d6422}">
-		<property name="inputFormat">
-			<value>1</value>
-		</property>
-		<relationship name="preset">
-			<destination>{73266157-8502-40f8-ad21-479d8a96d95e}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{1c9af810-e2bf-4f0f-aa73-cc98dfea1014}" />
 </objects>

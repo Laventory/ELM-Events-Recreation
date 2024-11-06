@@ -79,6 +79,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{da8756f5-1a22-49c4-9ea1-3513fa2f220f}">
+		<relationship name="modulators">
+			<destination>{e12a3720-664e-4123-a257-49134c44effa}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{d4bfae4c-155f-4a25-abec-8a0c141e7986}</destination>
 		</relationship>
@@ -120,10 +123,27 @@
 			<destination>{da8756f5-1a22-49c4-9ea1-3513fa2f220f}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{e12a3720-664e-4123-a257-49134c44effa}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>280</value>
+		</property>
+		<property name="releaseTime">
+			<value>0</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{d4bfae4c-155f-4a25-abec-8a0c141e7986}">
 		<relationship name="effects">
 			<destination>{37eae436-fc39-4bfa-a5e5-00a38ba125ea}</destination>
-			<destination>{e07ff2b9-2bbd-4e5f-9d4c-110904ed5329}</destination>
+			<destination>{ad7d20db-508b-4b83-bd28-520aa981b4b6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4468638c-fe6d-477d-ba95-1257d603726f}" />
@@ -135,21 +155,18 @@
 	</object>
 	<object class="MixerBusPanner" id="{ccaa9a6a-feb3-48e1-96a2-0c3203ffda9a}" />
 	<object class="MixerBusFader" id="{37eae436-fc39-4bfa-a5e5-00a38ba125ea}" />
-	<object class="ThreeEQEffect" id="{e07ff2b9-2bbd-4e5f-9d4c-110904ed5329}">
+	<object class="ThreeEQEffect" id="{ad7d20db-508b-4b83-bd28-520aa981b4b6}">
 		<property name="midGain">
-			<value>-80</value>
+			<value>-16</value>
 		</property>
 		<property name="highGain">
-			<value>-15.5</value>
+			<value>-16.5</value>
 		</property>
 		<property name="lowCrossover">
 			<value>660</value>
 		</property>
 		<property name="highCrossover">
 			<value>22000</value>
-		</property>
-		<property name="crossoverSlope">
-			<value>0</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{f7494f3f-a293-46d6-81bf-b3e1658ff0db}" />
