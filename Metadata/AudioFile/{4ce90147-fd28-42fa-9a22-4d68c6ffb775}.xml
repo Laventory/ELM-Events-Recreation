@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{43ac31b3-6f23-4f2f-a6b3-6ca20f332a18}">
+	<object class="AudioFile" id="{4ce90147-fd28-42fa-9a22-4d68c6ffb775}">
 		<property name="assetPath">
-			<value>ELMsfx/SmallSharpMetalli_CRT031704.wav</value>
+			<value>ELMsfx/FINALLAPBELL.flac</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.45785416666666667</value>
+			<value>5.9171250000000004</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{8e8123b0-ade1-4735-9c3f-91c551bb58e4}</destination>
