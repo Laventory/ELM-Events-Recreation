@@ -8,6 +8,7 @@
 			<destination>{0f045869-5711-4aa9-98d5-5d845720160e}</destination>
 			<destination>{73ff6384-672e-4d1e-bfd9-12aa7915183a}</destination>
 			<destination>{7291bbdc-7b51-4263-a89b-1e4c63e31efa}</destination>
+			<destination>{8fdaf3f6-7e6f-4008-bfec-b51c9785b6b8}</destination>
 		</relationship>
 	</object>
 	<object class="Tag" id="{0f045869-5711-4aa9-98d5-5d845720160e}">
@@ -23,6 +24,11 @@
 	<object class="Tag" id="{7291bbdc-7b51-4263-a89b-1e4c63e31efa}">
 		<property name="name">
 			<value>world</value>
+		</property>
+	</object>
+	<object class="Tag" id="{8fdaf3f6-7e6f-4008-bfec-b51c9785b6b8}">
+		<property name="name">
+			<value>sfx2d</value>
 		</property>
 	</object>
 </objects>
