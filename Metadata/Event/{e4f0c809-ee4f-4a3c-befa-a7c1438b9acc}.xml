@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e4f0c809-ee4f-4a3c-befa-a7c1438b9acc}">
+		<property name="note">
+			<value>BACKUP LYRICS FOR english.txt
+
+lyric1 = "Fear is there, I got to find my flare, oh"
+lyric2 = "Slice by slice I want to earn my prize."
+lyric3 = "Cataclysm, devastation, armageddon, decimation."
+lyric4 = "Gotta trust myself, gotta trust my punch."
+lyric5 = "Hey, my time is now."
+lyric6 = "Heart is seething, fists are beating, wow wow wow!"
+lyric7 = "Cheese and pepper, let's make some Noise!"
+lyric8 = "Serving fresh pizza is my choice!"
+lyric9 = "Hey there, It's pizza time (it's pizza time, it's pizza time)!"
+lyric10 = "Hey there, it's tower time (it's tower time), pizza tower time!"
+lyric11 = "Final fight, you gotta trust my might, ah"
+lyric12 = "Think again, I got no time to spare, ah"
+lyric13 = "Will I be, the man to save them all, or"
+lyric14 = "Will I be, the man to screw us all!"</value>
+		</property>
 		<property name="name">
 			<value>Mayhem</value>
 		</property>
@@ -155,7 +173,7 @@
 			<value>0.029143211879784303</value>
 		</property>
 		<property name="volume">
-			<value>3</value>
+			<value>1.20000005</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{3d22906c-3fb9-48c2-9db1-9fb8ff8aa12d}</destination>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{ac882ecc-4880-411a-b717-92cb12eeab9d}">
 		<property name="assetPath">
-			<value>pizzafacefinallapdeath.wav</value>
+			<value>ELMsfx/pizzafacefinallapdeath.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

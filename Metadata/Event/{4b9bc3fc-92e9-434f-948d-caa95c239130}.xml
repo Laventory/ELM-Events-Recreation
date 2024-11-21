@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{4b9bc3fc-92e9-434f-948d-caa95c239130}">
+		<property name="note" />
 		<property name="name">
 			<value>halloween2023</value>
 		</property>

@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{7507103c-0ea1-4905-9f3e-fe754c61a5cc}">
+		<property name="note">
+			<value>BACKUP LYRICS FOR english.txt
+
+stupidlyric1 = "I thought my pizzeria failed," 
+stupidlyric2 = "Sure, it was over."
+stupidlyric3 = "Now, it appears I will get nailed,"
+stupidlyric4 = "By my new neighbor."
+stupidlyric5 = "Hovering, Pizzaface,"
+stupidlyric6 = "Built a tower next door."
+stupidlyric7 = "Threatens to, blow my place,"
+stupidlyric8 = "I must settle the score."
+stupidlyric9 = "I climbed the tower,"
+stupidlyric10 = "Not trying to flaunt,"
+stupidlyric11 = "Just want to save my restaurant."
+stupidlyric12 = "Wario strength,"
+stupidlyric13 = "Fast like Sonic,"
+stupidlyric14 = "Resolve's extremely chronic."
+stupidlyric15 = "Name's Spaghetti,"
+stupidlyric16 = "From Napoli,"
+stupidlyric17 = "Don't dare mess with Italy."
+stupidlyric18 = "I fought the tower,"
+stupidlyric19 = "Cause all I want," 
+stupidlyric20 = "Save my restaurant."
+stupidlyric21 = "Gustavo always had my back,"
+stupidlyric22 = "Riding on his pet rat."
+stupidlyric23 = "That normally shuts restaurants down,"
+stupidlyric24 = "Don't call the health inspector."
+stupidlyric25 = "Cheese, mushrooms, tomatoes,"
+stupidlyric26 = "Just crave that Pizza Time!"
+stupidlyric27 = "Gettin' tired of that Noise guy,"
+stupidlyric28 = "He'll never be my ally!"
+stupidlyric29 = "Us 'talians don't give a shit,"
+stupidlyric30 = "Except with food we're so passionate."
+stupidlyric31 = "Makes me burst into raging fits."
+stupidlyric32 = "Food's tasty, be hasty,"
+stupidlyric33 = "Don't want pizzas that taste pasty-y-y."
+</value>
+		</property>
 		<property name="name">
 			<value>Musical</value>
 		</property>
@@ -293,7 +331,7 @@
 			<value>161.50639583333333</value>
 		</property>
 		<property name="volume">
-			<value>3</value>
+			<value>2</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{eef3cf83-c458-403e-a6da-282fdc55e257}</destination>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{240890e5-0fc5-454f-b1cf-a81f7814fbd5}">
-		<property name="note">
-			<value>Single character set-up, for Versions before The Noise Update or for if you want both Peppino and Noise to use the same Lap 3/4 tracks.</value>
-		</property>
+		<property name="note" />
 		<property name="name">
 			<value>pizzatime</value>
 		</property>

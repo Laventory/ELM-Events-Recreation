@@ -5,7 +5,7 @@
 			<value>lapranksilverland</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{544e2ca1-362c-458a-9e2a-1a24006f4d4b}</destination>
@@ -66,11 +66,18 @@
 	</object>
 	<object class="MarkerTrack" id="{333481e9-27f1-440e-bc57-a8860a2b2e3b}" />
 	<object class="GroupTrack" id="{5fbfb8b6-24e0-4170-b35c-9412272290bf}">
+		<relationship name="modules">
+			<destination>{dbd518c7-13b3-4137-9472-495ff3a38e29}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{24de620e-694e-4fad-8c97-46d1205d8e96}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{7621bf22-5f9a-40f8-8efc-74f2a7414f13}" />
+	<object class="Timeline" id="{7621bf22-5f9a-40f8-8efc-74f2a7414f13}">
+		<relationship name="modules">
+			<destination>{dbd518c7-13b3-4137-9472-495ff3a38e29}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{543424c7-e741-4018-a386-cc9d51e1a55a}">
 		<relationship name="effectChain">
 			<destination>{f206a54b-ff14-4120-93c3-0b7dae1db208}</destination>
@@ -88,6 +95,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{540491bb-7729-4a41-8678-006e129ddbf4}" />
+	<object class="SingleSound" id="{dbd518c7-13b3-4137-9472-495ff3a38e29}">
+		<property name="length">
+			<value>0.45785416666666667</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{761fb6fc-5c32-4d5c-ae86-0b89da985ce7}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{24de620e-694e-4fad-8c97-46d1205d8e96}">
 		<property name="name">
 			<value>Audio 2</value>

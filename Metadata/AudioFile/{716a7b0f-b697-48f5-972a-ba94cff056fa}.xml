@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{716a7b0f-b697-48f5-972a-ba94cff056fa}">
 		<property name="assetPath">
-			<value>spookylaptimesup.wav</value>
+			<value>ELMsfx/spookylaptimesup.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
