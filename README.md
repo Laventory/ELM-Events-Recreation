@@ -1,40 +1,45 @@
 # ELM-Events-Recreation (Double Yolked Branch)
-A recreation of the FMOD events for the Pizza Tower mod [**Egg's Lap Mod: Double Yolked**](https://gamebanana.com/mods/537351) as an FSPRO containing only those events/folders for those who want to use custom music and sounds with their own [Pizza Tower FMOD FSPRO recreations](https://github.com/Raltyro/PT-FSPRO-Recreation).
-
+A recreation of the FSPRO for the Pizza Tower mod [**Egg's Lap Mod: Double Yolked**](https://gamebanana.com/mods/537351) for those who want to use custom music and sounds or make their own ELM mods while using their own [Pizza Tower FMOD FSPRO recreations](https://github.com/Raltyro/PT-FSPRO-Recreation).
 # How it works
-The FMOD Project included here merely contains the folder structure and events that ELM reads for, in order for you to make it work with your own FMOD project all you must do is the following steps.
+It is practically the same as the original FSPRO-Recreation,  although if you want to customize the music in the mod I have set it up for sideloading an extra master bank.
 
+0. To ensure this works,  **BUILD THE BANKS ATLEAST ONCE BEFORE EDITING THEM** and put them in your ELMDY's `sound\Desktop\EggsLapMod` FOLDER.  Alternatively do your editing on a different branch/fork.
 
-1. Open the FMOD project and copy the folders with the events inside into your own FMOD project.
+1. Inside of the project is a folder called `LapMusic`,  this folder features all the events referenced in-game by the events outside the folder.  For this example I will be editing the `lap3` and `Lap4Songs/Peppino/Absurziti` events.
 
-![](https://i.postimg.cc/P5LvndG6/1.png)
+![](https://i.postimg.cc/gkXpV0ty/LapMusic.png)
 
-2. Create two new banks in the "Banks" tab, these banks respectfully should be named `ELMmusic` and `ELMsfx`, alongside these rename `Master` to `ELMMaster`
-
-![](https://i.postimg.cc/Kvp3WRWk/2.png)
-
-3. Assign the folders to their respective banks.
-
-![](https://i.postimg.cc/cJwK6TLw/3.png)
-
-4. Assign the events in the mixer
-  - You can open the mixer tab with CTRL+5, assign the music and sfx to their respective mixer folders.
+2. Edit the events as you would as usual.  Make sure to keep the filler space at the beginning with the transition regions that bring you to the songs.
    
-![](https://i.postimg.cc/2SPbzgrC/4.png)
+![](https://i.postimg.cc/qqW9b8Ds/Spacer.png)
 
-5. Set the state parameter to be "Exposed recursively via event instruments"
-  - This allows the pizzatime event to actually reference the main Pizza Tower one and still function as it should, instead of needing to recreate the original event.
+3. Once done editing,  assign the banks you are editing to the `ELMCustom/music` bank (Feel free to rename the folder if you want but this is what it'll come as by default).
+   
+![](https://i.postimg.cc/QdG2cJTs/Assigning.png)
 
-![](https://i.postimg.cc/pV4pQg5z/state.png)
+4. Build the banks included in ELMCustom and place the folder in your ELMDY's `sound\Desktop\` folder.
+   
+![](https://i.postimg.cc/3w9z5MbJ/Folder-placement.png)
 
-6. If you are choosing to build for The Noise Update and you want Noise to have unique music, port over the `pizzatimenoise` event instead, and rename it to `pizzatime`.
+5. Open up UTMT and go to the `obj_fmod`'s create event (`gml_Object_obj_fmod_Create_0`)
+    
+![](https://i.postimg.cc/tT6qX40N/fmod-create.png)
 
-7. Modify to your hearts content or build and put them in `Pizza Tower\sound\Desktop\_` and `Desktop\EggsLapMod\_` for the respective normal and ELM bank files.
-  - You need not worry about creating a `Master.bank` or `Master.strings.bank` as ELM only reads the `ELMMaster.bank` and `ELMMaster.strings.bank` files that are in the EggsLapMod folder.
+6. Edit the banks array to include your custom banks and master *alongside* the ELMDY ones. (I adjusted the format of the array in this image to make it easier to edit)
+    
+![](https://i.postimg.cc/1tjTXGQk/Bank-array.png)
+
+7. And thus your custom music should work now,  here is my example video which shows [River347's PJR Remix](https://www.youtube.com/watch?v=CUUn6xCTT7U) and [Absolute Absurziti (Cheesy Mix)](https://www.youtube.com/watch?v=GPHvp9Y5aJM). (Click the fat image below)
+   
+[![Click Me!!!](https://i.postimg.cc/GtMfB6yh/ELMFSPRO-CMD.png)](https://youtu.be/4FdvZ3OTCYw)
 
 # Music Credits
+## Peppino
 - Vozaxhi - [Pillar John's Revenge](https://www.youtube.com/watch?v=MSzReOhnxXg)
-- Inceptradom - Absolute AbsurZiti [V1 REDUX](https://www.youtube.com/watch?v=_x3RvXH7sdo) / [V2](https://www.youtube.com/watch?v=Tj6sN5GNBPA)
-- LAAAAE - Funiculi Freakout [V1](https://www.youtube.com/watch?v=cr0Y_DkL05w) / [V1 REDUX](https://www.youtube.com/watch?v=vPA3co_iesA) / [V2](https://www.youtube.com/watch?v=NuDjZB65ViA)
+- Inceptradom - [Absolute Absurziti V2](https://www.youtube.com/watch?v=8Vqa5lfr8Sk)
 - DimWiddy - [Memento Morinara](https://soundcloud.com/dimwiddy/memento-morinara)
 - _sillicate - [How To Self-Destruct](https://www.youtube.com/watch?v=NA5yxiphq74)
+## Noise
+- SeagullGuy - [Special Guest Showdown V3](https://youtu.be/czq_88BSNoM?feature=shared&t=9)
+- Hoakcast - [Death Report V1](https://www.youtube.com/watch?v=ywkJVFCMgME) & [V2](https://www.youtube.com/watch?v=T15-8MhBIZE)
+- Beliffy &  BilkShaked - [Jam-Packed Joyride](https://www.youtube.com/watch?v=Mpvt54rjrbE)
