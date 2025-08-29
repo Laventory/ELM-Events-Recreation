@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="BankFolder" id="{4d72555c-09a3-42e5-86f5-3d1a4333fcea}">
+		<property name="note">
+			<value>var banks = 
+[
+    concat("sound/", plat, "/ELMCustom/Master.bank"), 
+    concat("sound/", plat, "/ELMCustom/Master.strings.bank"), 
+    concat("sound/", plat, "/EggsLapMod/ELMMaster.bank"), 
+    concat("sound/", plat, "/EggsLapMod/ELMMaster.strings.bank"), 
+    concat("sound/", plat, "/music.bank"),
+    concat("sound/", plat, "/sfx.bank"), 
+    concat("sound/", plat, "/ELMCustom/music.bank"), 
+    concat("sound/", plat, "/EggsLapMod/ELMmusic.bank"), 
+    concat("sound/", plat, "/EggsLapMod/ELMsfx.bank")
+];
+</value>
+		</property>
+		<property name="name">
+			<value>ELMCustom</value>
+		</property>
+		<relationship name="folder">
+			<destination>{4626a34c-aa39-4e11-8806-ee69020a18eb}</destination>
+		</relationship>
+	</object>
+</objects>
