@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{6194d4f9-2555-42c9-be83-1e08a5e0f937}">
 		<property name="assetPath">
-			<value>ELMmusic/Misc/prank3.flac</value>
+			<value>ELMmusic/prank3.flac</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

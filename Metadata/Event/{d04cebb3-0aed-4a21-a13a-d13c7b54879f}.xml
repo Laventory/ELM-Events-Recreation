@@ -73,7 +73,6 @@
 			<destination>{4e719721-1b44-4ac4-81e0-5114d42ba1a4}</destination>
 			<destination>{03dc1dc1-5ddb-4ab3-a2b7-cfa0ef0a70c8}</destination>
 			<destination>{76a99583-44dd-4af8-bb26-900b6bc735eb}</destination>
-			<destination>{de6f4ec7-0cff-44c3-b888-a04da3f1c572}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{6a4e56a9-87be-45bc-99a0-bf62e9fdba7a}</destination>
@@ -93,7 +92,6 @@
 			<destination>{4e719721-1b44-4ac4-81e0-5114d42ba1a4}</destination>
 			<destination>{03dc1dc1-5ddb-4ab3-a2b7-cfa0ef0a70c8}</destination>
 			<destination>{76a99583-44dd-4af8-bb26-900b6bc735eb}</destination>
-			<destination>{de6f4ec7-0cff-44c3-b888-a04da3f1c572}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{b2a0ac51-3049-4f89-8ac1-d780049c5ad5}</destination>
@@ -239,20 +237,6 @@
 		</property>
 		<relationship name="audioFile">
 			<destination>{f05a3d83-b9d0-4e55-bba5-995decd6ebe7}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{de6f4ec7-0cff-44c3-b888-a04da3f1c572}">
-		<property name="color">
-			<value>Yellow Light 1</value>
-		</property>
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
-		<property name="start">
-			<value>7</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{62391e56-8e28-4ab1-ae6f-ba43c43f5442}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{6a4e56a9-87be-45bc-99a0-bf62e9fdba7a}">

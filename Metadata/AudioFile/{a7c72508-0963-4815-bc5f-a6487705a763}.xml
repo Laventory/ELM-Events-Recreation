@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a7c72508-0963-4815-bc5f-a6487705a763}">
 		<property name="assetPath">
-			<value>ELMmusic/Lap 4/Peppino/Absolute_AbsurZiti_V2.flac</value>
+			<value>ELMmusic/Absolute_AbsurZiti_V2.flac</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
