@@ -1,4 +1,4 @@
-# ELM-Events-Recreation (Double Yolked Branch)
+# ELM-Events-Recreation
 A recreation of the FSPRO for the Pizza Tower mod [**Egg's Lap Mod**](https://gamebanana.com/mods/464912) for those who want to use custom music and sounds or make their own ELM mods while using their own [Pizza Tower FMOD FSPRO recreations](https://github.com/Raltyro/PT-FSPRO-Recreation).
 # How it works
 It is practically the same as the original FSPRO-Recreation,  although if you want to customize the music in the mod I have set it up for sideloading an extra master bank.
