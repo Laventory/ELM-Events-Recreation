@@ -1,7 +1,8 @@
 # ELM FSPRO Recreation (Double Yolked Branch)
 A recreation of the FSPRO for the Pizza Tower mod [**Egg's Lap Mod: Double Yolked**](https://gamebanana.com/mods/537351) for those who want to use custom music and sounds or make their own ELM mods while using their own [Pizza Tower FMOD FSPRO recreations](https://github.com/Raltyro/PT-FSPRO-Recreation).
 # How it works
-It is practically the same as the original FSPRO-Recreation,  although if you want to customize the music in the mod I have set it up for sideloading an extra master bank.
+It is practically the same as the original FSPRO-Recreation.  Before asking about "missing sounds"  make sure you import the assets from the base Pizza Tower banks like you would the normal FSPRO.
+If you want to customize the music in the mod I have set it up for sideloading an extra master/music bank.
 
 0. To ensure this works,  **BUILD THE BANKS ATLEAST ONCE BEFORE EDITING THEM** and put them in your ELMDY's `sound\Desktop\EggsLapMod` FOLDER.  Alternatively do your editing on a different branch/fork.
 
