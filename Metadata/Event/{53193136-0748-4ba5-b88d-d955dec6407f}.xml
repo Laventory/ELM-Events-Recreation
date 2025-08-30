@@ -112,7 +112,6 @@ EDIT THE SONGS IN THE "Lap4Songs" folder.</value>
 			<destination>{5c77d3ce-df3d-48b6-a145-93852c6a6bbe}</destination>
 			<destination>{d9b46360-ed70-4272-bc52-35ab896f1a70}</destination>
 			<destination>{3363630a-d4db-46c0-9ef9-4e6cbf84a041}</destination>
-			<destination>{05d813e7-a4b2-4fea-ae4c-049fb2fda3a2}</destination>
 			<destination>{496e0e13-625b-4569-ba20-e91e3ebd2d86}</destination>
 			<destination>{c68d3010-c05f-4f4e-a103-f8e6b404ed9d}</destination>
 			<destination>{134ba1bf-e9a7-41cf-949e-abadb29016ea}</destination>
@@ -315,26 +314,6 @@ EDIT THE SONGS IN THE "Lap4Songs" folder.</value>
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{6bf0efa3-677e-4a6c-b69d-faf206993ea0}</destination>
-		</relationship>
-	</object>
-	<object class="LoopRegion" id="{05d813e7-a4b2-4fea-ae4c-049fb2fda3a2}">
-		<property name="position">
-			<value>0.20000000000000001</value>
-		</property>
-		<property name="length">
-			<value>0.5</value>
-		</property>
-		<property name="name">
-			<value>Region A</value>
-		</property>
-		<property name="looping">
-			<value>0</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{25010648-bcb3-4145-8711-e0e45b2b6a1c}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{188eb711-711c-41d1-a8cf-9cebbcec5c72}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionRegion" id="{496e0e13-625b-4569-ba20-e91e3ebd2d86}">

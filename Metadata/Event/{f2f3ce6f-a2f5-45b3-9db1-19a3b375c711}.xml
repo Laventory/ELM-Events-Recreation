@@ -177,11 +177,8 @@
 		</relationship>
 	</object>
 	<object class="TransitionDestinationSound" id="{5ac1e284-a93e-4838-8466-35484b240fde}">
-		<property name="start">
-			<value>0.25062452459626872</value>
-		</property>
 		<property name="length">
-			<value>2.7493754754037316</value>
+			<value>3.0000000000000004</value>
 		</property>
 	</object>
 	<object class="TransitionSourceSound" id="{69904d05-6bae-4335-8c3d-0fcf472eccda}">

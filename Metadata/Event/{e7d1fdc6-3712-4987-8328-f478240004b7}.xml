@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e7d1fdc6-3712-4987-8328-f478240004b7}">
+		<property name="note">
+			<value>not particularly accurate but it sounds nicer imo</value>
+		</property>
 		<property name="name">
 			<value>timesup</value>
 		</property>
@@ -100,6 +103,8 @@
 	<object class="MixerBusEffectChain" id="{4e467a34-10ee-4e8f-a8f4-c495a0f99bfd}">
 		<relationship name="effects">
 			<destination>{c2beb59b-8dc4-4426-8033-ddca9da0e8ac}</destination>
+			<destination>{32911a95-b1d1-4a50-a803-31e32155a756}</destination>
+			<destination>{97f20ca3-0e7e-4abe-bd57-e717316eb93e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7201a17b-2699-4494-ab35-1065ef6048a7}" />
@@ -113,6 +118,21 @@
 	</object>
 	<object class="MixerBusFader" id="{670819ca-17a1-4dcf-8f13-955a0ce0026b}" />
 	<object class="MixerBusFader" id="{c2beb59b-8dc4-4426-8033-ddca9da0e8ac}" />
+	<object class="ThreeEQEffect" id="{32911a95-b1d1-4a50-a803-31e32155a756}">
+		<property name="lowGain">
+			<value>-80</value>
+		</property>
+		<property name="midGain">
+			<value>-7.5</value>
+		</property>
+		<property name="lowCrossover">
+			<value>380</value>
+		</property>
+		<property name="crossoverSlope">
+			<value>2</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{97f20ca3-0e7e-4abe-bd57-e717316eb93e}" />
 	<object class="AutomationPoint" id="{b3abedc3-16cb-473d-a31c-d8761321da91}">
 		<property name="position">
 			<value>2.1000000000000001</value>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{147498bf-bc85-4e7d-ae38-ecaa60e7f248}">
+		<property name="note">
+			<value>Don't forget to import the base game sound effects if this event is silent</value>
+		</property>
 		<property name="name">
 			<value>wartimerbreak</value>
 		</property>

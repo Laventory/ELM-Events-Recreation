@@ -44,8 +44,8 @@ lyric14 = "Will I be, the man to screw us all!"</value>
 			<destination>{5d517110-233d-4a75-aa8a-73ef2c1ed71e}</destination>
 		</relationship>
 		<relationship name="groupTracks">
-			<destination>{014f5696-7d42-40a2-95ab-ec6a434ed0c9}</destination>
 			<destination>{f5d28fdc-6e2d-4375-a76d-eed2ff2ca103}</destination>
+			<destination>{014f5696-7d42-40a2-95ab-ec6a434ed0c9}</destination>
 			<destination>{5170f9ee-04c7-4d99-be7c-90d7f1bc00ba}</destination>
 			<destination>{57003ccc-b96c-4168-821b-0c3e3ad0a86b}</destination>
 		</relationship>
@@ -76,26 +76,26 @@ lyric14 = "Will I be, the man to screw us all!"</value>
 	</object>
 	<object class="EventAutomatableProperties" id="{ac21dbe3-0b8a-470d-b145-23a4d42237ca}" />
 	<object class="MarkerTrack" id="{5d517110-233d-4a75-aa8a-73ef2c1ed71e}" />
-	<object class="GroupTrack" id="{014f5696-7d42-40a2-95ab-ec6a434ed0c9}">
-		<relationship name="automationTracks">
-			<destination>{26edda4d-6d9e-45ce-b253-470c8f3fef2f}</destination>
-		</relationship>
-		<relationship name="modules">
-			<destination>{f281ddb8-1a96-4b03-95d7-7ea1881d0f9b}</destination>
-		</relationship>
-		<relationship name="mixerGroup">
-			<destination>{afa316fe-d703-47cb-86fb-ef2646940177}</destination>
-		</relationship>
-	</object>
 	<object class="GroupTrack" id="{f5d28fdc-6e2d-4375-a76d-eed2ff2ca103}">
 		<relationship name="automationTracks">
 			<destination>{5fc18942-b24b-49f5-a0eb-e2b3a6d9a98c}</destination>
 		</relationship>
 		<relationship name="modules">
-			<destination>{2c4863f3-a3cf-42ba-bad4-a8432fc8d54c}</destination>
+			<destination>{f281ddb8-1a96-4b03-95d7-7ea1881d0f9b}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{5180bd3d-b98d-4195-961b-397f8b9fc294}</destination>
+		</relationship>
+	</object>
+	<object class="GroupTrack" id="{014f5696-7d42-40a2-95ab-ec6a434ed0c9}">
+		<relationship name="automationTracks">
+			<destination>{26edda4d-6d9e-45ce-b253-470c8f3fef2f}</destination>
+		</relationship>
+		<relationship name="modules">
+			<destination>{2c4863f3-a3cf-42ba-bad4-a8432fc8d54c}</destination>
+		</relationship>
+		<relationship name="mixerGroup">
+			<destination>{afa316fe-d703-47cb-86fb-ef2646940177}</destination>
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{5170f9ee-04c7-4d99-be7c-90d7f1bc00ba}">
@@ -184,9 +184,9 @@ lyric14 = "Will I be, the man to screw us all!"</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a0d3c758-8bf8-4d00-992e-c0ba446a46e0}" />
-	<object class="AutomationTrack" id="{26edda4d-6d9e-45ce-b253-470c8f3fef2f}">
+	<object class="AutomationTrack" id="{5fc18942-b24b-49f5-a0eb-e2b3a6d9a98c}">
 		<relationship name="automator">
-			<destination>{cd36dd30-22dd-4f3c-af2e-9f68f05a1985}</destination>
+			<destination>{25e0d836-b269-4235-94a3-63b22d833c57}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{f281ddb8-1a96-4b03-95d7-7ea1881d0f9b}">
@@ -203,34 +203,31 @@ lyric14 = "Will I be, the man to screw us all!"</value>
 			<destination>{9ea12e0a-d78b-4971-ab6c-14625d17ac1d}</destination>
 		</relationship>
 	</object>
-	<object class="EventMixerGroup" id="{afa316fe-d703-47cb-86fb-ef2646940177}">
+	<object class="EventMixerGroup" id="{5180bd3d-b98d-4195-961b-397f8b9fc294}">
 		<property name="name">
 			<value>Vocal</value>
 		</property>
 		<relationship name="automators">
-			<destination>{cd36dd30-22dd-4f3c-af2e-9f68f05a1985}</destination>
+			<destination>{25e0d836-b269-4235-94a3-63b22d833c57}</destination>
 		</relationship>
 		<relationship name="effectChain">
-			<destination>{2b772146-d0b0-44e0-a78a-662edddadd16}</destination>
+			<destination>{a9af83e8-3770-46ad-b90c-410a4094204e}</destination>
 		</relationship>
 		<relationship name="panner">
-			<destination>{e4c40f42-450f-4a21-9522-b74cd1435a97}</destination>
+			<destination>{b7b3146f-7399-4caa-be5d-1a17cb2ad6ad}</destination>
 		</relationship>
 		<relationship name="output">
 			<destination>{ce0ddf15-13b4-4ea6-abba-e05a87045319}</destination>
 		</relationship>
 	</object>
-	<object class="AutomationTrack" id="{5fc18942-b24b-49f5-a0eb-e2b3a6d9a98c}">
+	<object class="AutomationTrack" id="{26edda4d-6d9e-45ce-b253-470c8f3fef2f}">
 		<relationship name="automator">
-			<destination>{25e0d836-b269-4235-94a3-63b22d833c57}</destination>
+			<destination>{cd36dd30-22dd-4f3c-af2e-9f68f05a1985}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{2c4863f3-a3cf-42ba-bad4-a8432fc8d54c}">
 		<property name="color">
 			<value>Purple Light 2</value>
-		</property>
-		<property name="start">
-			<value>0.008103130464182054</value>
 		</property>
 		<property name="length">
 			<value>207.03841770286931</value>
@@ -242,18 +239,18 @@ lyric14 = "Will I be, the man to screw us all!"</value>
 			<destination>{40b8f842-3005-44e3-a223-56253afe6e7f}</destination>
 		</relationship>
 	</object>
-	<object class="EventMixerGroup" id="{5180bd3d-b98d-4195-961b-397f8b9fc294}">
+	<object class="EventMixerGroup" id="{afa316fe-d703-47cb-86fb-ef2646940177}">
 		<property name="name">
 			<value>Inst</value>
 		</property>
 		<relationship name="automators">
-			<destination>{25e0d836-b269-4235-94a3-63b22d833c57}</destination>
+			<destination>{cd36dd30-22dd-4f3c-af2e-9f68f05a1985}</destination>
 		</relationship>
 		<relationship name="effectChain">
-			<destination>{a9af83e8-3770-46ad-b90c-410a4094204e}</destination>
+			<destination>{2b772146-d0b0-44e0-a78a-662edddadd16}</destination>
 		</relationship>
 		<relationship name="panner">
-			<destination>{b7b3146f-7399-4caa-be5d-1a17cb2ad6ad}</destination>
+			<destination>{e4c40f42-450f-4a21-9522-b74cd1435a97}</destination>
 		</relationship>
 		<relationship name="output">
 			<destination>{ce0ddf15-13b4-4ea6-abba-e05a87045319}</destination>
@@ -705,20 +702,6 @@ lyric14 = "Will I be, the man to screw us all!"</value>
 	</object>
 	<object class="MixerBusPanner" id="{9d6d6db8-464a-4f75-b653-645d86eac38f}" />
 	<object class="MixerBusFader" id="{4e7cac6f-86d9-4d35-b5a1-bc201eb810ba}" />
-	<object class="Automator" id="{cd36dd30-22dd-4f3c-af2e-9f68f05a1985}">
-		<property name="nameOfPropertyBeingAutomated">
-			<value>volume</value>
-		</property>
-		<relationship name="automationCurves">
-			<destination>{7e5c191e-6a98-4938-92e8-6b08ca6ca53c}</destination>
-		</relationship>
-	</object>
-	<object class="MixerBusEffectChain" id="{2b772146-d0b0-44e0-a78a-662edddadd16}">
-		<relationship name="effects">
-			<destination>{e5eb5fe3-8f44-474d-988b-467a20bea32a}</destination>
-		</relationship>
-	</object>
-	<object class="MixerBusPanner" id="{e4c40f42-450f-4a21-9522-b74cd1435a97}" />
 	<object class="Automator" id="{25e0d836-b269-4235-94a3-63b22d833c57}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
@@ -733,6 +716,20 @@ lyric14 = "Will I be, the man to screw us all!"</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b7b3146f-7399-4caa-be5d-1a17cb2ad6ad}" />
+	<object class="Automator" id="{cd36dd30-22dd-4f3c-af2e-9f68f05a1985}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{7e5c191e-6a98-4938-92e8-6b08ca6ca53c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2b772146-d0b0-44e0-a78a-662edddadd16}">
+		<relationship name="effects">
+			<destination>{e5eb5fe3-8f44-474d-988b-467a20bea32a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e4c40f42-450f-4a21-9522-b74cd1435a97}" />
 	<object class="MixerBusEffectChain" id="{d14ce0d4-d888-4364-87e7-7df151d448b6}">
 		<relationship name="effects">
 			<destination>{48d56427-8d84-42d7-8a7a-d9b670778eb4}</destination>
@@ -746,16 +743,6 @@ lyric14 = "Will I be, the man to screw us all!"</value>
 	</object>
 	<object class="MixerBusPanner" id="{0c001c3a-bd03-4685-a7c3-68279012ddcd}" />
 	<object class="MixerBusFader" id="{6a9e7c44-8b2e-4f8d-9660-b37a9c37d74e}" />
-	<object class="AutomationCurve" id="{7e5c191e-6a98-4938-92e8-6b08ca6ca53c}">
-		<relationship name="parameter">
-			<destination>{364fb896-9020-4e1e-ba09-107a3a84f7fc}</destination>
-		</relationship>
-		<relationship name="automationPoints">
-			<destination>{ed159c51-4b7d-40de-b14c-43f3e3699599}</destination>
-			<destination>{afd9658d-4368-4b1e-8772-0d2917f76f85}</destination>
-		</relationship>
-	</object>
-	<object class="MixerBusFader" id="{e5eb5fe3-8f44-474d-988b-467a20bea32a}" />
 	<object class="AutomationCurve" id="{d0df9760-3cb0-4274-8a66-3548afffda43}">
 		<relationship name="parameter">
 			<destination>{364fb896-9020-4e1e-ba09-107a3a84f7fc}</destination>
@@ -766,27 +753,18 @@ lyric14 = "Will I be, the man to screw us all!"</value>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{354a9c61-cab7-4af2-a16e-cdd9405de7fc}" />
+	<object class="AutomationCurve" id="{7e5c191e-6a98-4938-92e8-6b08ca6ca53c}">
+		<relationship name="parameter">
+			<destination>{364fb896-9020-4e1e-ba09-107a3a84f7fc}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{ed159c51-4b7d-40de-b14c-43f3e3699599}</destination>
+			<destination>{afd9658d-4368-4b1e-8772-0d2917f76f85}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{e5eb5fe3-8f44-474d-988b-467a20bea32a}" />
 	<object class="MixerBusFader" id="{48d56427-8d84-42d7-8a7a-d9b670778eb4}" />
 	<object class="MixerBusFader" id="{66c43252-aacb-4826-9422-bcbe1cc99ef4}" />
-	<object class="AutomationPoint" id="{ed159c51-4b7d-40de-b14c-43f3e3699599}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>-5.7220459e-06</value>
-		</property>
-		<property name="curveShape">
-			<value>0.723585784</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{afd9658d-4368-4b1e-8772-0d2917f76f85}">
-		<property name="position">
-			<value>1</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{e0fd613a-1bb7-419b-aaac-84a1404280f1}">
 		<property name="position">
 			<value>1</value>
@@ -804,6 +782,25 @@ lyric14 = "Will I be, the man to screw us all!"</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.656807721</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{ed159c51-4b7d-40de-b14c-43f3e3699599}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-5.7220459e-06</value>
+		</property>
+		<property name="curveShape">
+			<value>0.723585784</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{afd9658d-4368-4b1e-8772-0d2917f76f85}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
 		</property>
 	</object>
 </objects>
