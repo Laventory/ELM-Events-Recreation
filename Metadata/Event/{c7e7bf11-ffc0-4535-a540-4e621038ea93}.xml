@@ -176,9 +176,6 @@
 		<property name="length">
 			<value>300</value>
 		</property>
-		<property name="startOffset">
-			<value>44.5</value>
-		</property>
 		<relationship name="event">
 			<destination>{a20059b3-841d-4365-b7a5-a8aa1bf37cf8}</destination>
 		</relationship>
